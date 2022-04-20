@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [
+		"* {\n    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');\n}\n\nbody {\n    background-color: #fff;\n    margin: 0px;\n    padding: 0px;\n}\n\na.navtext {\n    color: #000;\n    text-decoration: none;\n}\n\na:active {\n    color: #000;\n}\n\na:visited {\n    color: #000;\n  }\n\na:link{\n    color: #000;\n}\n\nhr {\n    width: 100%;\n    border: 1px;\n    border-style: solid;\n}\n\n#menu {\n    font-family: 'Poppins', sans-serif;\n    font-size: 24pt;\n}"
+	],
+	"names": [],
+	"mappings": "AACI,OAAO,CAAC,6EAAI;AADhB,AAAA,CAAC,CAAC,GAED;;AAED,AAAA,IAAI,CAAC,EACD,gBAAgB,EAAE,IAAI,EACtB,MAAM,EAAE,GAAG,EACX,OAAO,EAAE,GAAG,GACf;;AAED,AAAA,CAAC,AAAA,QAAQ,CAAC,EACN,KAAK,EAAE,IAAI,EACX,eAAe,EAAE,IAAI,GACxB;;AAED,AAAA,CAAC,CAAC,MAAM,CAAC,EACL,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,CAAC,CAAC,OAAO,CAAC,EACN,KAAK,EAAE,IAAI,GACZ;;AAEH,AAAA,CAAC,CAAC,IAAI,CAAA,EACF,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,EAAE,CAAC,EACC,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,GAAG,EACX,YAAY,EAAE,KAAK,GACtB;;AAED,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,qBAAqB,EAClC,SAAS,EAAE,IAAI,GAClB"
+}
