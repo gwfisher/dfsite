@@ -8,3 +8,4 @@ services:
     restart: always
     volumes:
       - /dfsite/nginx/conf.d/:/etc/nginx/conf.d/:ro
+      - /dfsite/certbot/conf:/etc/letsencrypt/:ro
