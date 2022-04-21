@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY www/* /usr/share/nginx/html/
+COPY www/* /var/www/dfsite
