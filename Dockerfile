@@ -1,2 +1,3 @@
 FROM nginx:latest
-COPY www/* /var/www/dfsite
+RUN ["mkdir","-p","/var/www/dfsite"]
+COPY www/* /var/www/dfsite/
