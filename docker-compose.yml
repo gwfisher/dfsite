@@ -9,3 +9,9 @@ services:
     volumes:
       - /dfsite/nginx/conf.d/:/etc/nginx/conf.d/:ro
       - /dfsite/certbot/conf:/etc/letsencrypt/:ro
+      - /dfsite/certbot/www:/var/www/certbot/:ro
+  certbot:
+    image: certbot/certbot:latest
+    volumes:
+      - /dfsite/certbot/www:/var/www/certbot/:rw
+      - /dfsite/certbot/conf:/etc/letsencrypt/:rw
